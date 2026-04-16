@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="../nav.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="mediaHome.css">
+    <link rel="stylesheet" href="../nav.css">
     <link rel="stylesheet" href="../footer.css">
     <title>Keskonmange | Accueil</title>
 </head>
@@ -15,17 +15,16 @@
 <body>
 
     <!-- nav -->
-    <nav class="navbar">
-        <!-- logonav -->
-        <a href="../homepage/home.html"><img src="../Assets/Image/Logo.png" alt="Keskonmange Logo" /></a>
+   <nav class="navbar">
+         <!-- logonav -->
+        <a href="../homepage/home.html"><img class="navbar-img" src="../Assets/Image/Logo.png" alt="Keskonmange Logo" /></a>
         <!-- link nav -->
-        <ul>
-            <li id="comunityLink"><a href="../comunity/comunity.html" target="_blank">Communauté</a></li>
-            <li id="contactLink"><a href="../Contact_Page/contact.html" target="_blank">Contact</a></li>
-            <li id="shopLink"><a href="../shop_page/shop.html" target="_blank">Boutique</a></li>
-            <li class="logInLink"><a href="#">Connexion</a></li>
-            <hr />
-            <li class="signInLink"><a href="#">Inscription</a></li>
+        <ul class="navbar-ul">
+            <li class="navbar-li" id="comunityLink"><a class="navbar-a" href="../comunity/comunity.html" target="_blank">Communauté</a></li>
+            <li class="navbar-li" id="contactLink"><a class="navbar-a" href="../Contact_Page/contact.html" target="_blank">Contact</a></li>
+            <li class="navbar-li" id="shopLink"><a class="navbar-a" href="../shop_page/shop.html" target="_blank">Boutique</a></li>
+            <li class="logInLink navbar-li"><a class="navbar-a" href="#">Connexion</a></li>
+                       <li class="signInLink navbar-li"><a class="navbar-a" href="#">Inscription</a></li>
         </ul>
         <!-- Icon burger for mobile version -->
         <div id="burgerIcon" class="burgerMenuActive"></div>
@@ -47,7 +46,7 @@
         <section class="home-box-section">
             <h2 class="title-section">Craquez pour nos box</h2>
             <div class="home-wrapper">
-                <button id="prev"><span>&#x279C</span></button>
+                <button type="button" id="prev"><span>&#x279C</span></button>
                 <div class="home-carousel-container">
                     <div class="home-cards">
                         <!--box-repas from shop_page-->
@@ -55,75 +54,75 @@
                             <div class="home-box-left">
                                 <a href="../shop_page/shop.html" class="text-deco-none">
                                     <div class="home-box-title">
-                                        <img src="../shop_page/Logo3.png" class="mini-logo">
+                                        <img src="../shop_page/Logo3.png" class="mini-logo" alt="">
                                         <h3>Box Découverte</h3>
                                     </div>
                                     <p>Repas surprise de la semaine</p>
                                     <span class="home-price">15,90 €</span>
                                 </a>
-                                <button class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
+                                <button type="button" class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
                             </div>
                             <div class="home-box-image">
-                                <img src="../shop_page/box découverte.png">
+                                <img src="../shop_page/box découverte.png" alt="">
                             </div>
                         </div><!--fin box repas-->
                         <div class="home-box-card">
                             <div class="home-box-left">
                                 <a href="../shop_page/shop.html" class="text-deco-none">
                                     <div class="home-box-title">
-                                        <img src="../shop_page/Logo3.png" class="mini-logo">
+                                        <img src="../shop_page/Logo3.png" class="mini-logo" alt="">
                                         <h3>Box Gourmande</h3>
                                     </div>
                                     <p>Le plaisir avant tout</p>
                                     <span class="home-price">18,90 €</span>
                                 </a>
-                                <button class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
+                                <button type="button" class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
                             </div>
                             <div class="home-box-image">
-                                <img src="../shop_page/box gourmande.png">
+                                <img src="../shop_page/box gourmande.png" alt="">
                             </div>
                         </div>
                         <div class="home-box-card">
                             <div class="home-box-left">
                                 <a href="../shop_page/shop.html" class="text-deco-none">
                                     <div class="home-box-title">
-                                        <img src="../shop_page/Logo3.png" class="mini-logo">
+                                        <img src="../shop_page/Logo3.png" class="mini-logo" alt="">
                                         <h3>Box Healthy</h3>
                                     </div>
                                     <p>Repas sains et équilibrés</p>
                                     <span class="home-price">23,90 €</span>
                                 </a>
-                                <button class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
+                                <button type="button" class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
                             </div>
                             <div class="home-box-image">
-                                <img src="../shop_page/box healthy.png">
+                                <img src="../shop_page/box healthy.png" alt="">
                             </div>
                         </div>
                         <div class="home-box-card">
                             <div class="home-box-left">
                                 <a href="../shop_page/shop.html" class="text-deco-none">
                                     <div class="home-box-title">
-                                        <img src="../shop_page/Logo3.png" class="mini-logo">
+                                        <img src="../shop_page/Logo3.png" class="mini-logo" alt="">
                                         <h3>Box Surprise</h3>
                                     </div>
                                     <p>Repas mystère à découvrir</p>
                                     <span class="home-price">20,90 €</span>
                                 </a>
-                                <button class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
+                                <button type="button" class="home-btn-order"><a href="" class="text-deco-none">Commander</a></button>
                             </div>
                             <div class="home-box-image">
-                                <img src="../shop_page/box surprise.png">
+                                <img src="../shop_page/box surprise.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <button id="next"><span>&#x279C</span></button>
+                <button type="button" id="next"><span>&#x279C</span></button>
             </div>
             <div class="dots">
-                <button class="dot active"></button>
-                <button class="dot"></button>
-                <button class="dot"></button>
-                <button class="dot visibility-toggle"></button>
+                <button type="button" class="dot active"></button>
+                <button type="button" class="dot"></button>
+                <button type="button" class="dot"></button>
+                <button type="button" class="dot visibility-toggle"></button>
             </div>
         </section>
         <!--section texte promotionnel-->
@@ -344,8 +343,7 @@
     </section>
 </footer> 
 <script src="home.js"></script>
+<script src="../nav.js">
+</script>
 </body>
-
-
-
 </html>
